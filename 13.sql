@@ -1,0 +1,1 @@
+SELECT o_id, o_entry_d, COALESCE(o_carrier_id,0) FROM orders WHERE o_w_id = 1 AND o_d_id = 1 AND o_c_id = 46 AND o_id = (SELECT MAX(o_id) FROM orders WHERE o_w_id = 1 AND o_d_id = 1 AND o_c_id = 46);

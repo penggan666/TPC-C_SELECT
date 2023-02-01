@@ -1,0 +1,1 @@
+SELECT COALESCE(MIN(no_o_id),0) FROM new_order WHERE no_d_id = 1 AND no_w_id = 1;

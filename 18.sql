@@ -1,0 +1,1 @@
+SELECT d_next_o_id FROM district WHERE d_id = 4 AND d_w_id = 1;

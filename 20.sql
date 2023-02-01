@@ -1,0 +1,1 @@
+SELECT count(*) FROM stock WHERE s_w_id = 1 AND s_i_id = 12287 AND s_quantity < 15;

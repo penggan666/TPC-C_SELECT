@@ -1,0 +1,1 @@
+SELECT c_balance, c_first, c_middle, c_last FROM customer WHERE c_w_id = 1 AND c_d_id = 9 AND c_id = 1528;

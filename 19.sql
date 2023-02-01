@@ -1,0 +1,1 @@
+SELECT DISTINCT ol_i_id FROM order_line WHERE ol_w_id = 1 AND ol_d_id = 4 AND ol_o_id < 5279 AND ol_o_id >= (5279 - 20);
